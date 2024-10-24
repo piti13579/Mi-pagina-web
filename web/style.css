@@ -1,3 +1,69 @@
-body{
-    background-color: aqua;
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; /* Use a clean, modern font */
+    line-height: 1.6; /* Improve readability */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text for contrast */
+}
+
+/* Header Styles */
+header {
+    background: #007BFF; /* Bootstrap primary blue */
+    color: white; /* White text */
+    padding: 20px 0; /* Add padding above and below */
+    text-align: center; /* Center text */
+}
+
+nav ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+nav ul li {
+    display: inline; /* Display list items in a row */
+    margin: 0 15px; /* Space between items */
+}
+
+nav ul li a {
+    color: white; /* White links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Main Styles */
+main {
+    padding: 20px; /* Add padding inside the main area */
+}
+
+section {
+    margin-bottom: 20px; /* Space between sections */
+    background: white; /* White background for sections */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding inside sections */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow effect */
+}
+
+/* Modpack List Styles */
+h2 {
+    color: #007BFF; /* Blue heading */
+}
+
+ul {
+    padding-left: 20px; /* Indent list */
+}
+
+/* Footer Styles */
+footer {
+    background: #007BFF; /* Same blue as header */
+    color: white; /* White text */
+    text-align: center; /* Center text */
+    padding: 15px 0; /* Padding above and below */
+    position: relative; /* Positioning for footer */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+}
+nav ul li a,
+footer a {
+    color: white; /* Cambia a blanco o cualquier color que desees */
 }
